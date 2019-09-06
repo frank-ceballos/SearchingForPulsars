@@ -10,7 +10,7 @@
 # * 5. Visualize data set                                                     *
 # * 6. Classifiers                                                            *
 # * 7. Hyper-parameters                                                       *
-# * 8. 8. Classifier Tuning and Evaluation                                    *
+# * 8. Classifier Tuning and Evaluation                                       *
 # * 9. Visualing Results                                                      *
 # *                                                                           *
 # * --------------------------------------------------------------------------*
