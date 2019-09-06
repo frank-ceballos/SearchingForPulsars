@@ -420,6 +420,9 @@ g = sns.barplot(x="Recall Score", y="Classifier", palette = palette,
 # Generate a bolded horizontal line at y = 0
 ax.axvline(x = 0, color = 'black', linewidth = 4, alpha = .7)
 
+# Show values on bar
+show_values_on_bars(g, h_v="h", space=0.4)
+
 # Turn frame off
 ax.set_frame_on(False)
 
@@ -428,8 +431,6 @@ plt.tight_layout()
 
 # Save Figure
 plt.savefig("Recall Scores Bar Plot.png", dpi = 1080)
-
-show_values_on_bars(g, h_v="h", space=0.4)
 
 
 
